@@ -30,7 +30,7 @@ npm install
 ## Usage
 
 ```bash
-node scrape.js 4     # scrape first 4 listing pages
+node index.js 4     # scrape first 4 listing pages
 ```
 
 If no argument is provided, the script defaults to the first two pages.
@@ -55,7 +55,7 @@ Ranking komputerów według ceny za 1GB RAM:
 
 ## Configuration
 
-All site-specific selectors and the base URL are defined at the top of `scrape.js`.  
+All site-specific selectors and the base URL are defined at the top of `index.js`.  
 If Morele.net changes its layout, adjust these values accordingly.
 
 ---
@@ -64,7 +64,7 @@ If Morele.net changes its layout, adjust these values accordingly.
 
 ```
 .
-├── scrape.js        # main script
+├── index.js        # main script
 └── package.json     # lists dependencies
 ```
 
