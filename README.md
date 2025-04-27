@@ -1,4 +1,3 @@
-```markdown
 # Unit-Value Scraper – RAM Price-per-GB Ranking for Morele.net
 
 This Node.js script crawls the desktop-PC category on **Morele.net** and produces a terminal ranking of computers ordered by **price per gigabyte of RAM**.  
@@ -26,9 +25,7 @@ It was written for an academic assignment that asked for a “unit value” web-
 
 ## Installation
 npm install
-```
 
----
 
 ## Usage
 
@@ -82,10 +79,3 @@ If Morele.net changes its layout, adjust these values accordingly.
    * the element with class `price-new` for price (prefers the `data-price` attribute, falls back to text)
    * a regular expression to capture `"XX GB"` in the title
 4. The script computes `unitPrice = price / ram`, collects valid products, sorts by `unitPrice`, then prints the ranking.
-
----
-
-## License
-
-MIT © 2025 <your name>
-```
